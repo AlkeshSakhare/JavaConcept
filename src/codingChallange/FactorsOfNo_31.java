@@ -2,7 +2,7 @@ package codingChallange;
 
 import java.util.Scanner;
 
-public class FactorsOfNo_28 {
+public class FactorsOfNo_31 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
