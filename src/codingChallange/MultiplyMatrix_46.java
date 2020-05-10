@@ -22,9 +22,12 @@ public class MultiplyMatrix_46 {
 		a = getArray();
 		System.out.println("Enter second array");
 		b = getArray();
+
 		for (int i = 0; i < x; i++) {
 			for (int j = 0; j < x; j++) {
-				sum[i][j] = sum[i][j] + a[i][j] * b[j][i];
+				for (int k = 0; k < x; k++) {
+					sum[i][j] = sum[i][j] + a[i][k] * b[k][j];
+				}
 			}
 		}
 		System.out.println("Maxtrix A: ");
