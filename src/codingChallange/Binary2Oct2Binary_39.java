@@ -2,7 +2,7 @@ package codingChallange;
 
 import java.util.Scanner;
 
-public class Binary2Oct2Binary {
+public class Binary2Oct2Binary_39 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

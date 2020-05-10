@@ -2,7 +2,7 @@ package codingChallange;
 
 import java.util.Scanner;
 
-public class CalculateAvgUsingArray {
+public class CalculateAvgUsingArray_42 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
