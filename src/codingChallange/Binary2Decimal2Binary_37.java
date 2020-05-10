@@ -7,6 +7,7 @@ public class Binary2Decimal2Binary_37 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Enter decimal no");
+		@SuppressWarnings("resource")
 		int no = new Scanner(System.in).nextInt();
 		int actualNo = no;
 		int binary = binary(no);
@@ -34,8 +35,7 @@ public class Binary2Decimal2Binary_37 {
 	private static int decimal(int no) {
 		int count = 0;
 		int sum = 0;
-		while (no != 0)
-		{
+		while (no != 0) {
 			int digit = no % 10;
 			sum += digit * Math.pow(2, count);
 			count++;

@@ -1,9 +1,6 @@
 package codingChallange;
 
-import java.util.Scanner;
-
 public class ReverseSentenceByRecursive_40 {
-	static String reversesentence = "";
 
 	public static void main(String[] args) {
 		String sentence = "Go work";
@@ -14,8 +11,7 @@ public class ReverseSentenceByRecursive_40 {
 	public static String reverse(String sentence) {
 		if (sentence.isEmpty())
 			return sentence;
-		String a = reverse(sentence.substring(1)) + sentence.charAt(0);
-		return a;
+		return reverse(sentence.substring(1)) + sentence.charAt(0);
 
 	}
 }
