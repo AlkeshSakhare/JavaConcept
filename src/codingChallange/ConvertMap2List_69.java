@@ -19,12 +19,17 @@ public class ConvertMap2List_69 {
 		day.put(7, "Sunday");
 		System.out.println("DayMap: " + day);
 
-		@SuppressWarnings("unchecked")
 		List<Integer> dayKey = new ArrayList(day.keySet());
-		List<String> dayValue = new ArrayList(day.values());
+		List<String> dayValue = new ArrayList<String>(day.values());
 
-		System.out.println("DayKey: " + dayKey);
-		System.out.println("DayValue: " + dayValue);
+		System.out.println("Converting DayMap's Key  to List of DayKey: " + dayKey);
+		System.out.println("Converting DayMap's Value to List of DayValue: " + dayValue);
+
+		Map<Integer, String> list2Map = new HashMap();
+		for (int i = 0; i < dayKey.size(); i++) {
+			list2Map.put(dayKey.get(i), dayValue.get(i));
+		}
+		System.out.println("Converting DayKeyList and DayValueList as Map: " + list2Map);
 
 	}
 }
