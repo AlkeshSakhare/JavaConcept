@@ -2,10 +2,6 @@ package codingChallange;
 
 import java.util.Scanner;
 
-import javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar;
-import javax.swing.plaf.synth.SynthSpinnerUI;
-
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 public class Add2ComplexNo_52 {
 
